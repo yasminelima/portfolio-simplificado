@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
-    <title>Games Shop - A sua loja de games</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+    <title>Portfólio - Yasmine Lima</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Games Shop</h1>
-            <nav>
+            <h1>Yasmine Lima</h1>
+            <nav id="base">
                 <ul>
                     <li>
-                        <a href="#about">Sobre a loja</a>
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#about1">Profissional</a>
+                    </li>
+                    <li>
+                        <a href="#about2">Tech Stack</a>
                     </li>
                     <li>
                         <a href="#contact">Contato</a>
@@ -27,21 +33,29 @@
         </div>
     </header>
     <section id="about">
+        <h2 class="sub">Desenvolvedora front-end | HTML5 | CSS3 | JavaScript</h2>
         <div class="container">
-            <img class="store-front" src="./images/loja.jpg" alt="Fachada da loja Games Shop">
+            <img class="front" src="./images/Perfil.png" alt="Perfil">
             <div>
-                <h2>Sobre a Loja</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eum odio deleniti laboriosam quae culpa dolores suscipit aspernatur cum, ex non sed provident mollitia earum, illo aut iure nam labore!
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fugiat nemo soluta. Impedit, consectetur aliquam similique provident quibusdam quia eos quisquam quod ea blanditiis unde deserunt assumenda in molestias molestiae?
-                </p>
-                <ul class="brands-list">
-                    <li><img src="./images/nintendo.png" alt="Nintendo"></li>
-                    <li><img src="./images/xbox.png" alt="XBOX"></li>
-                    <li><img src="./images/playstation.png" alt="Playstation"></li>
+                <h2>Sobre</h2>
+                <p>🙋‍♀️ Yasmine Lima, 32 anos, ela/dela.</p>
+                <p>🌍 Brasileira, Salvador - Bahia.social-links.</p>
+                <p>👔 Advogada com 6 anos de experiência.</p>
+                <p>💻 Atualmente, estou interessada em <em>front-end</em>.</p>
+                <p>🌱 Estou focando meus conhecimentos em HTML, CSS and JS.</p>
+                <h2 id="about1">Profissional</h2>
+                <ul class="links-prof">
+                    <li><a href="https://github.com/yasminelima" target="_blank"><img src="./images/github.png" alt="Github"> - Github</a></li><br>
+                    <li><a href="https://www.linkedin.com/in/yasminelimadev" target="_blank"><img src="./images/linkedin.png" alt="Linkedin"> - Linkedin </a></li>
                 </ul>
+                <h2 id="about2">Tech Stack</h2>
+                <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JS"><img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown">
+
+                <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VSCODE"> <img src="https://img.shields.io/badge/sublime_text-%23575757.svg?&style=for-the-badge&logo=sublime-text&logoColor=important" alt="Sublime">
+
+                <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows"> <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian"> <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubunto">
+
+                <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion"> <img src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white" alt="Trello"> <img src="https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white" alt="Office"> <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Gsheets">
             </div>
         </div>
     </section>
@@ -50,7 +64,7 @@
             <h2>Contato</h2>
             <div class="contact-methods">
                 <div>
-                    <h3>Fale Conosco</h3>
+                    <h3>Entre em contato</h3>
                     <form>
                         <input type="text" placeholder="Seu nome" required>
                         <input type="email" placeholder="Seu E-mail" required>
@@ -60,31 +74,32 @@
                     </form>
                 </div>
                 <div>
-                    <h3>Nos Acompanhe</h3>
+                    <h3>Redes Sociais</h3>
                     <ul class="social-links">
                         <li>
-                            <a href="#" title="Siga-nos no Instagram"><img src="./images/instagram.png" alt="Logo do Instagram"></a>
+                            <a href="https://www.instagram.com/yasmine_lima/" title="Me siga no Instagram"><img src="./images/instagram.png" alt="Logo do Instagram"></a>
                         </li>
                         <li>
-                            <a href="#" title="Siga-nos no Facebook"><img src="./images/facebook.png" alt="Logo do Facebook"></a>
+                            <a href="https://web.facebook.com/yasmine.lima.777/" title="Me siga no Facebook"><img src="./images/facebook.png" alt="Logo do Facebook"></a>
                         </li>
                         <li>
-                            <a href="#" title="Visite nosso canal no Youtube"><img src="./images/youtube.png" alt="Logo do Youtube"></a>
+                            <a href="https://www.twitch.tv/bimbas" title="Visite meu Canal da Twitch"><img src="./images/twitch.png" alt="Logo da Twitch"></a>
                         </li>
                     </ul>
                 </div>
                 <div>
-                    <h3>Venha até nós</h3>
-                    <p>
-                        Rua JavaScript n° 124, Vila HTML - São Paulo - SP
-                    </p>
+                    <h3>Endereço</h3>
+                    <p>Salvador - Bahia</p>
+                    <p>40080-002</p>
                 </div>
             </div>
         </div>
     </section>
     <footer>
         <div class="container">
-            <p>&copy; Games Shop - Todos os direitos reservados - 2022</p>
+            <a href="#base">
+                <p>Yasmine Lima - 2022</p>
+            </a>
         </div>
     </footer>
 </body>
